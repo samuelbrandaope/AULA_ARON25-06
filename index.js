@@ -20,7 +20,8 @@ function somar_com_retorno(){
   return num1 + num2; // Retorna um varlor de dentro do bloco da função de volta para o código.
 } // Fim do bloco
 
-const conteudo_const = "nulo";
+somar(); // Como executar função sem retorno
 
-console.log(conteudo);
-console.log(conteudo_const);
+// Como executar função com retorno
+const resultado = somar_com_retorno();
+console.log(resultado);
